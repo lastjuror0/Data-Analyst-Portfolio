@@ -184,15 +184,25 @@ Generate visualizations.
 Perform clustering & similarity analysis.
 
 📂 Repository Structure
+
 📦 Personal-End-to-End-Project
+
  ├── 📂 Data-Analysis
+
  │    ├── Goodreads-Book-Clustering-Project-Documentation.pdf
+ 
  │    └── goodreads_python.ipynb
+ 
  ├── 📂 Scraper
+ 
  │    ├── goodreads_scraped_data.csv
+ 
  │    └── goodreads_scraper.ipynb
+ 
  ├── 📂 Tableau-Dashboard
+ 
  │    ├── Tableau-Dashboard.png
+ 
  │    └── goodreads-tableau.twbx
 
 🛠️ Tools & Libraries
