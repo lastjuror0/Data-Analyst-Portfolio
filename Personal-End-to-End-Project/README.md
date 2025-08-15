@@ -200,9 +200,7 @@ Perform clustering & similarity analysis.
  │    └── goodreads_scraper.ipynb
  
  ├── 📂 Tableau-Dashboard
- 
  │    ├── Tableau-Dashboard.png
- 
  │    └── goodreads-tableau.twbx
 
 🛠️ Tools & Libraries
