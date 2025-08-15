@@ -115,6 +115,7 @@ Mapping tables reduced redundancy and improved feature clarity.
 Clusters separate into clear engagement and content-style groups.
 
 🚀 How to Run
+
 This project has two main parts:
 
 Scraping Goodreads book data using Selenium
