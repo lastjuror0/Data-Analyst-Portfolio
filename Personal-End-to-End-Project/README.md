@@ -87,7 +87,7 @@ This repository contains an end-to-end project for collecting, cleaning, analyzi
 Prerequisites
 - Python 3.8+
 - Google Chrome installed
-- ChromeDriver matching your Chrome version (in your PATH)
+- ChromeDriver
 - Jupyter Notebook or JupyterLab
 
 Install dependencies:
