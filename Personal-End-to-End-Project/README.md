@@ -194,14 +194,12 @@ Perform clustering & similarity analysis.
  │    └── goodreads_python.ipynb
  
  ├── 📂 Scraper
+  goodreads_scraped_data.csv
+  goodreads_scraper.ipynb
  
- │    ├── goodreads_scraped_data.csv
- 
- │    └── goodreads_scraper.ipynb
- 
- ├── 📂 Tableau-Dashboard
- │    ├── Tableau-Dashboard.png
- │    └── goodreads-tableau.twbx
+📂 Tableau-Dashboard
+ Tableau-Dashboard.png
+ goodreads-tableau.twbx
 
 🛠️ Tools & Libraries
 
