@@ -101,3 +101,73 @@ Results were moderate given available features; documented limitations clearly
 Light Python visuals for checks; Tableau dashboard for interpretation
 
 Included before/after tables, mapping snapshots, and ER diagram for reviewers
+
+📊 Key Insights
+
+High ratings don’t always mean popularity — review volume tells a different story.
+
+Certain features show strong correlation but offer unique value when combined.
+
+Year of release has a stronger link to genre patterns than month.
+
+Mapping tables reduced redundancy and improved feature clarity.
+
+Clusters separate into clear engagement and content-style groups.
+
+🚀 How to Run
+# 1. Clone repository
+git clone https://github.com/YourUsername/Book-Clustering-SQL-Python.git
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the scraper notebook
+#   - Open `goodreads_scraper.ipynb`
+#   - Run the cookie save cell (manual login once), then run the crawl + extract cells
+#   - CSV will be written (e.g., goodreads_scrapper.csv)
+
+# 4. Open the analysis notebook
+jupyter notebook
+
+# 5. Run the analysis notebook cells in order
+
+📂 Repository Structure
+
+📦 Personal-End-to-End-Project
+
+📂 Data-Analysis
+
+📜 Goodreads-Book-Clustering-Project-Documentation.pdf
+
+📜 goodreads_python.ipynb
+
+📂 Scraper
+
+📜 goodreads_scraped_data.csv
+
+📜 goodreads_scraper.ipynb
+
+📂 Tableau-Dashboard
+
+📊 Tableau-Dashboard.png
+
+📊 goodreads-tableau.twbx
+
+🛠️ Tools & Libraries
+
+Python: Pandas, NumPy, Matplotlib, scikit-learn
+
+SQL: DuckDB for in-notebook queries
+
+Visualization: Tableau, Seaborn
+
+Scraping: Selenium (Chrome WebDriver, headless, cookie-based session)
+
+ML: KMeans clustering, StandardScaler
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+
+
