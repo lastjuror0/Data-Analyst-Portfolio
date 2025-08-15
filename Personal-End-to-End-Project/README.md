@@ -1,4 +1,4 @@
-# Book Clustering with SQL + Python
+# End‑to‑End Goodreads Book Clustering with DuckDB, Pandas, and scikit‑learn
 
 **Tech stack:** Python, SQL (DuckDB), Pandas, scikit-learn, Tableau, Selenium (Chrome WebDriver)
 
