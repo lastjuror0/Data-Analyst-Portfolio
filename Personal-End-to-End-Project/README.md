@@ -115,19 +115,90 @@ Mapping tables reduced redundancy and improved feature clarity.
 Clusters separate into clear engagement and content-style groups.
 
 🚀 How to Run
-# 1. Clone repository
-git clone https://github.com/YourUsername/Book-Clustering-SQL-Python.git
+This project has two main parts:
 
-# 2. Install dependencies
+Scraping Goodreads book data using Selenium
+
+Analyzing the scraped dataset with Python & SQL (DuckDB)
+
+1. Prerequisites
+
+Python 3.8+
+
+Google Chrome installed
+
+ChromeDriver matching your Chrome version (place it in your PATH)
+
+Jupyter Notebook or Jupyter Lab
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-# 3. Run the scraper notebook
-#   - Open `goodreads_scraper.ipynb`
-#   - Run the cookie save cell (manual login once), then run the crawl + extract cells
-#   - CSV will be written (e.g., goodreads_scrapper.csv)
+2. Scraping Goodreads Data
+Step 1 — Manual Login & Cookie Save
 
-# 4. Open the analysis notebook
-jupyter notebook
+To avoid repeated login prompts, the scraper first logs you in manually and saves cookies for reuse.
+
+Open the scraper notebook:
+
+jupyter notebook goodreads_scraper.ipynb
+
+
+Run the first few cells until prompted:
+
+press Enter to continue
+
+
+Log in to Goodreads in the Chrome window that opens.
+
+Press Enter in the terminal to save your session cookies to goodreads_cookies.pkl.
+
+Step 2 — Collect Listopia Lists
+
+The scraper will:
+
+Visit Goodreads Listopia
+
+Collect links to themed book lists
+
+Store them in memory for processing
+
+Step 3 — Extract Book Details
+
+The notebook will:
+
+Open each Listopia list
+
+Scrape book details (title, author, rating, votes, etc.)
+
+Save the dataset as:
+
+goodreads_scraped_data.csv
+
+3. Running the Analysis
+
+Once scraping is complete:
+
+Open the analysis notebook:
+
+jupyter notebook goodreads_python.ipynb
+
+
+Ensure the dataset path is correct:
+
+df = pd.read_csv('goodreads_scraped_data.csv')
+
+
+Run all cells to:
+
+Clean and preprocess the dataset
+
+Explore with SQL (DuckDB)
+
+Generate visualizations (Seaborn/Matplotlib)
+
+Perform clustering & similarity analysis
 
 # 5. Run the analysis notebook cells in order
 
