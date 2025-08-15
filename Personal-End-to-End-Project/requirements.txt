@@ -1,0 +1,10 @@
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+scikit-learn==1.4.2
+duckdb==1.1.0
+selenium==4.21.0
+webdriver-manager==4.0.2
+jupyterlab==4.2.3
+ipykernel==6.29.5
