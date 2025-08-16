@@ -76,4 +76,3 @@ Snapshot (attributes)
 - A Tableau dashboard showcasing insights into CVD occurrences.
 
 ---
-```
