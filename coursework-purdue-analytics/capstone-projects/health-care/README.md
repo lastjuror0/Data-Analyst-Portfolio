@@ -1,82 +1,79 @@
-Healthcare Project – Data and Artificial Intelligence
-Data Analyst Capstone Project
+# Healthcare Project – Data and Artificial Intelligence
+
+Data Analyst Capstone Project  
 Simplilearn | Indian Institute of Technology, Kanpur
 
-Problem Statement
-Cardiovascular diseases are one of the leading causes of deaths globally. To identify the causes and develop a system to predict potential heart attacks in an effective manner is necessary.
+## Overview
+Cardiovascular diseases (CVD) are one of the leading causes of death globally. This project analyzes a clinical dataset to identify factors that contribute to heart disease and to build a predictive model to detect the presence of CVD.
 
-The data presented contains all the information about relevant factors that might have an impact on cardiovascular health. This dataset must be studied in detail for further analysis.
+The dataset contains 14 attributes and over 4,000 records. The goal is to clean and explore the data, identify significant risk factors, build a logistic regression model, and present findings in a Tableau dashboard.
 
-There is one dataset (data) that has 14 attributes with more than 4000 data points.
+---
 
-You are required to determine and examine the factors that play a significant role in increasing the rate of heart attacks. Also, use the findings to create and predict a model.
+## Problem Statement
+Identify and examine factors that significantly increase the risk of heart disease, and build a model to predict the presence of heart disease (target).
 
-Dataset Information
-Snapshot (Attributes)
-age – Age in years
+---
 
-sex – (1 = male; 0 = female)
+## Dataset Information
 
-cp – Type of chest pain
+Snapshot (attributes)
 
-trestbps – Resting blood pressure (in mm Hg on admission to the hospital)
+- `age` – Age in years  
+- `sex` – Sex (1 = male; 0 = female)  
+- `cp` – Type of chest pain  
+- `trestbps` – Resting blood pressure (in mm Hg on admission to the hospital)  
+- `chol` – Serum cholesterol in mg/dl  
+- `fbs` – Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)  
+- `restecg` – Resting electrocardiographic results  
+- `thalach` – Maximum heart rate achieved  
+- `exang` – Exercise induced angina (1 = yes; 0 = no)  
+- `oldpeak` – ST depression induced by exercise relative to rest  
+- `slope` – The slope of the peak exercise ST segment  
+- `ca` – Number of major vessels (0–3) colored by fluoroscopy  
+- `thal` – Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)  
+- `target` – Heart disease indicator (1 = disease present; 0 = no disease)
 
-chol – Serum cholesterol in mg/dl
+---
 
-fbs – (Fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+## Project Tasks
 
-restecg – Resting electrocardiographic results
+### Week 1 — Data Understanding & Exploratory Data Analysis (EDA)
+1. Import and inspect the data:
+   - Check data structure, types, and initial samples.
+   - Identify missing values and duplicates.
+2. Data cleaning:
+   - Remove duplicates (if any).
+   - Treat missing values using an appropriate strategy (imputation, removal, or domain-specific decisions).
+3. Preliminary statistics:
+   - Generate summary statistics (mean, median, std, quartiles).
+   - Explore measures of central tendency and spread.
+4. EDA (visual and statistical):
+   - Identify categorical variables and visualize them (count plots, bar charts).
+   - Study the occurrence of CVD across different ages.
+   - Analyze resting blood pressure (`trestbps`) for anomalies and relation to heart attack risk.
+   - Study gender distribution and its relationship with `target`.
 
-thalach – Maximum heart rate achieved
+### Week 2 — Advanced EDA & Modeling
+1. Analyze relationships:
+   - Describe the relationship between cholesterol (`chol`) and `target`.
+   - Examine how maximum heart rate achieved (`thalach`) relates to heart disease occurrence.
+   - Investigate whether thalassemia (`thal`) is a major contributor and assess impacts of other factors.
+   - Use pair plots (or equivalent) to visualize relationships among variables.
+2. Modeling:
+   - Train a logistic regression model to predict `target`.
+   - Evaluate model performance on a test set; present a confusion matrix and relevant metrics (accuracy, precision, recall, F1-score).
+3. Dashboarding (Tableau):
+   - Create visualizations to compare attributes of diseased vs. healthy individuals.
+   - Build a dashboard demonstrating variable associations and key contributing factors.
 
-exang – Exercise induced angina (1 = yes; 0 = no)
+---
 
-oldpeak – ST depression induced by exercise relative to rest
+## Deliverables
+- A cleaned dataset ready for analysis.
+- EDA report and insights identifying significant risk factors.
+- A trained and evaluated logistic regression model for prediction.
+- A Tableau dashboard showcasing insights into CVD occurrences.
 
-slope – The slope of the peak exercise ST segment
-
-ca – Number of major vessels (0–3) colored by fluoroscopy
-
-thal – 3 = normal; 6 = fixed defect; 7 = reversible defect
-
-target – (1 = heart disease present; 0 = no disease)
-
-Project Tasks
-Week 1: Data Understanding and EDA
-Importing, Understanding, and Inspecting Data
-
-Perform preliminary data inspection and report findings (data structure, missing values, duplicates, etc.).
-
-Based on the findings, remove duplicates (if any) and treat missing values using an appropriate strategy.
-
-Generate a preliminary statistical summary of the data. Explore the measures of central tendency and spread.
-
-Performing EDA (Exploratory Data Analysis)
-4. Identify categorical variables and explore them using appropriate tools (e.g., count plots).
-5. Study the occurrence of CVD across different ages.
-6. Detect whether heart attack risk can be inferred from anomalies in resting blood pressure.
-7. Study the gender distribution of patients.
-
-Week 2: Advanced EDA and Modeling
-Describe the relationship between cholesterol levels and the target variable.
-
-Examine the relationship between peak exercise heart rates (thalach) and the occurrence of heart attack.
-
-Investigate whether thalassemia is a major cause of CVD, and evaluate the impact of other factors.
-
-Use a pair plot to analyze relationships among all variables.
-
-Perform logistic regression, predict outcomes on test data, and validate results using a confusion matrix.
-
-Dashboarding (Visualization in Tableau)
-6. Visualize variables to compare attributes of diseased vs. healthy individuals.
-7. Build a dashboard to demonstrate variable associations and key contributing factors.
-
-Deliverables
-A cleaned dataset ready for analysis.
-
-EDA insights identifying significant risk factors.
-
-Logistic regression model for prediction.
-
-Tableau dashboard showcasing insights into CVD occurrences.
+---
+```
