@@ -137,6 +137,7 @@ Dashboarding
 Develop a Tableau dashboard to enable interactive exploration and understanding of data patterns.
 
 Demonstrate key variables, their relationships, and the drivers of default risk within the dashboard.
+
 ---
 
 ## Deliverables
