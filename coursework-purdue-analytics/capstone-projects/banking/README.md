@@ -3,16 +3,21 @@
 Data Analyst Capstone Project  
 Simplilearn | Indian Institute of Technology, Kanpur
 
+---
+
 ## Overview
 
 Banking focuses on estimating determinants of vehicle loan default and building a predictive model to identify potential defaulters.  
 The project uses a single dataset with 41 attributes and requires exploratory data analysis, modeling, and dashboarding to understand and communicate risk drivers.
+
+---
 
 ## Problem statement
 
 Financial institutions face losses from vehicle loan defaults, prompting tighter underwriting and higher rejection rates, thereby increasing the need for improved credit risk scoring models.  
 The study aims to estimate determinants of vehicle loan default and build a model to predict potential defaulters using the provided dataset.
 
+---
 
 ## Dataset Information
 
