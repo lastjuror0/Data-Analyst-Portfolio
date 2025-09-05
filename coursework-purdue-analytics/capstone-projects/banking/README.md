@@ -105,3 +105,8 @@ Snapshot (attributes)
    - Evaluate model performance on a test set; present a confusion matrix and relevant metrics (accuracy, precision, recall, F1-score).
 
 ---
+
+## Deliverables
+• A cleaned dataset ready for analysis.  
+• EDA report with insights into loan default risk factors.  
+• A trained logistic regression model for predicting defaulters.
