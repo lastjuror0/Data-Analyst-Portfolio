@@ -13,56 +13,65 @@ The project uses a single dataset with 41 attributes and requires exploratory da
 Financial institutions face losses from vehicle loan defaults, prompting tighter underwriting and higher rejection rates, thereby increasing the need for improved credit risk scoring models.  
 The study aims to estimate determinants of vehicle loan default and build a model to predict potential defaulters using the provided dataset.
 
-## Dataset
 
-The dataset contains customer identifiers, application details, KYC flags, credit bureau summary metrics, primary/secondary loan account aggregates, and the target variable indicating first-EMI default.  
-Primary accounts represent loans taken for personal use; secondary accounts represent co-applicant or guarantor roles, both of which are summarized at disbursement time.
+## Dataset Information
 
-## Variable descriptions
+- `UniqueID` – Unique identifier for customers  
+- `loan_default` – Payment default in the first EMI on due date  
+- `disbursed_amount` – Amount of loan disbursed  
+- `asset_cost` – Cost of the asset  
+- `ltv` – Loan-to-value ratio of the asset  
+- `branch_id` – Branch where the loan was disbursed  
+- `supplier_id` – Vehicle dealer  
+- `manufacturer_id` – Vehicle manufacturer (e.g., Hero Honda, TVS, etc.)  
+- `Current_pincode_ID` – Customer’s current pincode  
+- `Date.of.Birth` – Date of birth of the customer  
+- `Employment.Type` – Employment type (Salaried / Self-Employed)  
+- `DisbursalDate` – Date of loan disbursement  
+- `State_ID` – State of disbursement  
+- `Employee_code_ID` – Employee who logged the disbursement  
+- `MobileNo_Avl_Flag` – Mobile number available (1 = yes)  
+- `Aadhar_flag` – Aadhar available (1 = yes)  
+- `PAN_flag` – PAN available (1 = yes)  
+- `VoterID_flag` – Voter ID available (1 = yes)  
+- `Driving_flag` – Driving license available (1 = yes)  
+- `Passport_flag` – Passport available (1 = yes)  
+- `PERFORM_CNS.SCORE` – Bureau score  
+- `PERFORM_CNS.SCORE.DESCRIPTION` – Bureau score description  
+- `PRI.NO.OF.ACCTS` – Total number of primary loans at the time of disbursement  
+- `PRI.ACTIVE.ACCTS` – Active primary loans at disbursement  
+- `PRI.OVERDUE.ACCTS` – Defaulted primary accounts at disbursement  
+- `PRI.CURRENT.BALANCE` – Principal outstanding amount for primary accounts  
+- `PRI.SANCTIONED.AMOUNT` – Sanctioned loan amount for primary accounts  
+- `PRI.DISBURSED.AMOUNT` – Disbursed loan amount for primary accounts  
+- `SEC.NO.OF.ACCTS` – Total number of secondary loans at the time of disbursement  
+- `SEC.ACTIVE.ACCTS` – Active secondary loans  
+- `SEC.OVERDUE.ACCTS` – Defaulted secondary loans  
+- `SEC.CURRENT.BALANCE` – Outstanding balance of secondary loans  
+- `SEC.SANCTIONED.AMOUNT` – Sanctioned secondary loan amount  
+- `SEC.DISBURSED.AMOUNT` – Disbursed secondary loan amount  
+- `PRIMARY.INSTAL.AMT` – EMI amount of the primary loan  
+- `SEC.INSTAL.AMT` – EMI amount of the secondary loan  
+- `NEW.ACCTS.IN.LAST.SIX.MONTHS` – New loans in the last 6 months  
+- `DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS` – Defaults in the last 6 months  
+- `AVERAGE.ACCT.AGE` – Average loan tenure  
+- `CREDIT.HISTORY.LENGTH` – Time since first loan  
+- `NO.OF_INQUIRIES` – Number of loan queries made by the customer  
+- `customer_id` – Unique identifier for each customer  
+- `age` – Age of the customer  
+- `gender` – Gender of the customer  
+- `account_balance` – Current balance in customer’s account  
+- `num_of_products` – Number of banking products held  
+- `credit_score` – Customer’s credit score  
+- `is_active_member` – Whether the customer is an active member (1 = yes; 0 = no)  
+- `estimated_salary` – Estimated annual salary  
+- `tenure` – Number of years with the bank  
+- `has_cr_card` – Whether the customer has a credit card (1 = yes; 0 = no)  
+- `geography` – Customer’s location/region  
+- `churn` – Whether the customer left the bank (1 = yes; 0 = no)  
+- `fraud_reported` – Whether the account was flagged for fraud (1 = yes; 0 = no)  
 
-- **UniqueID:** Identifier for customers.
-- **loan_default:** Payment default in the first EMI on the due date.
-- **disbursed_amount:** Amount of loan disbursed.
-- **asset_cost:** Cost of the financed asset.
-- **ltv:** Ratio of loan amount to the value of the asset.
-- **branch_id:** Branch where the loan was disbursed.
-- **supplier_id:** Vehicle dealer where the loan was disbursed.
-- **manufacturer_id:** Vehicle manufacturer associated with the asset (e.g., Hero Honda, TVS).
-- **Current_pincode_ID:** Current pincode of the customer.
-- **Date.of.Birth:** Date of birth of the customer.
-- **Employment.Type:** Employment type (Salaried/Self Employed).
-- **DisbursalDate:** Date of loan disbursement.
-- **State_ID:** State of disbursement.
-- **Employee_code_ID:** Internal employee code that logged the disbursement.
-- **MobileNo_Avl_Flag:** Flag if a mobile number was shared.
-- **Aadhar_flag:** Flag if Aadhar was shared.
-- **PAN_flag:** Flag if PAN was shared.
-- **VoterID_flag:** Flag if voter ID was shared.
-- **Driving_flag:** Flag if driver’s license was shared.
-- **Passport_flag:** Flag if passport was shared.
-- **PERFORM_CNS.SCORE:** Credit bureau performance score.
-- **PERFORM_CNS.SCORE.DESCRIPTION:** Description/category of the bureau score.
-- **PRI.NO.OF.ACCTS:** Count of total primary accounts at disbursement.
-- **PRI.ACTIVE.ACCTS:** Count of active primary accounts at disbursement.
-- **PRI.OVERDUE.ACCTS:** Number of overdue/defaulted primary accounts at disbursement.
-- **PRI.CURRENT.BALANCE:** Total principal outstanding of active primary accounts at disbursement.
-- **PRI.SANCTIONED.AMOUNT:** Total sanctioned amount across primary accounts at disbursement.
-- **PRI.DISBURSED.AMOUNT:** Total disbursed amount across primary accounts at disbursement.
-- **SEC.NO.OF.ACCTS:** Count of total secondary accounts at disbursement.
-- **SEC.ACTIVE.ACCTS:** Count of active secondary accounts at disbursement.
-- **SEC.OVERDUE.ACCTS:** Number of overdue/defaulted secondary accounts at disbursement.
-- **SEC.CURRENT.BALANCE:** Total principal outstanding of active secondary accounts at disbursement.
-- **SEC.SANCTIONED.AMOUNT:** Total sanctioned amount across secondary accounts at disbursement.
-- **SEC.DISBURSED.AMOUNT:** Total disbursed amount across secondary accounts at disbursement.
-- **PRIMARY.INSTAL.AMT:** EMI amount of the primary loan.
-- **SEC.INSTAL.AMT:** EMI amount of the secondary loan.
-- **NEW.ACCTS.IN.LAST.SIX.MONTHS:** Number of new accounts in the last 6 months.
-- **DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS:** Number of delinquent accounts in the last 6 months.
-- **AVERAGE.ACCT.AGE:** Average tenure/age of accounts.
-- **CREDIT.HISTORY.LENGTH:** Time since first loan.
-- **NO.OF_INQUIRIES:** Count of credit inquiries.
-
-Notes: Primary accounts are customer’s own loans; secondary accounts are as co-applicant or guarantor.
+Notes: Primary accounts are customers own loans; secondary accounts are as co-applicant or guarantor.
 
 ## Week 1 tasks
 
