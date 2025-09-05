@@ -144,3 +144,4 @@ Demonstrate key variables, their relationships, and the drivers of default risk 
 • A cleaned dataset ready for analysis.  
 • EDA report with insights into loan default risk factors.  
 • A trained logistic regression model for predicting defaulters.
+**
