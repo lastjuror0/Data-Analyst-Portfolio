@@ -1,4 +1,5 @@
 
+
 Data Analyst Capstone Project
 
 Project 2: Banking
@@ -12,22 +13,6 @@ A statistical model needs to be created to predict the potential demand in dolla
 You are required to determine and examine factors that affect the ratio of vehicle loan defaulters. Also, use the findings to create a model to predict the potential defaulters.
 
 Financial institutions incur significant losses due to the default of vehicle loans. This has led to the tightening up of vehicle loan underwriting and increased the vehicle loan rejection rates. The need for a better credit risk scoring model among these institutions also gets created. This warrants a study to estimate the determinants of vehicle loan default.
-
----
-
-Dataset Snapshot
-
-UniqueID | disbursed_amount | asset_cost | ltv | branch_id | supplier_id | manufacturer_id | Current_pincode_ID
-420825   | 50578            | 58400      | 89.55 | 67 | 22807 | 45 | 1441
-417566   | 53278            | 61360      | 89.63 | 67 | 22807 | 45 | 1497
-539055   | 52378            | 60300      | 88.39 | 67 | 22807 | 45 | 1495
-
-Date.of.Birth | Employment.Type | DisbursalDate | State_ID | Employee_code_ID | MobileNo_Avl_Flag | Aadhar_flag | PAN_flag | VoterID_flag | Driving_flag
-01-01-1984 | Salaried | 03-08-2018 | 6 | 1998 | 1 | 1 | 0 | 0 | 0
-24-08-1985 | Self employed | 01-08-2018 | 6 | 1998 | 1 | 1 | 0 | 0 | 0
-09-12-1977 | Self employed | 26-09-2018 | 6 | 1998 | 1 | 1 | 0 | 0 | 0
-
----
 
 Variable Descriptions
 
@@ -97,11 +82,8 @@ Project Task: Week 2
 4. Do customers who make higher number of enquiries end up being higher risk candidates?
 5. Is credit history (new loans in last six months, loans defaulted in last six months, time since first loan, etc.) a significant factor in estimating probability of loan defaulters?
 6. Perform logistic regression modeling, predict the outcome for the test data, and validate the results using the confusion matrix.
+
+
 ---
-
-Thank You
-
-
-Validate results using confusion matrix.
 
 Thank You
