@@ -3,11 +3,14 @@
 Data Analyst Capstone Project  
 Simplilearn | Indian Institute of Technology, Kanpur
 
+---
+
 ## Overview
 Cardiovascular diseases (CVD) are one of the leading causes of death globally. This project analyzes a clinical dataset to identify factors that contribute to heart disease and to build a predictive model to detect the presence of CVD.
 
 The dataset contains 14 attributes and over 4,000 records. The goal is to clean and explore the data, identify significant risk factors, build a logistic regression model, and present findings in a Tableau dashboard.
 
+---
 
 ## Problem Statement
 Identify and examine factors that significantly increase the risk of heart disease, and build a model to predict the presence of heart disease (target).
