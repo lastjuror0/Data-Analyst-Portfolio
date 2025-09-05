@@ -8,7 +8,6 @@ Cardiovascular diseases (CVD) are one of the leading causes of death globally. T
 
 The dataset contains 14 attributes and over 4,000 records. The goal is to clean and explore the data, identify significant risk factors, build a logistic regression model, and present findings in a Tableau dashboard.
 
----
 
 ## Problem Statement
 Identify and examine factors that significantly increase the risk of heart disease, and build a model to predict the presence of heart disease (target).
