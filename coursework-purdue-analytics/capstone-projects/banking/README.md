@@ -77,9 +77,7 @@ Notes: Primary accounts are customers own loans; secondary accounts are as co-ap
 
 ## Project Tasks
 
----
-
-## Week 1 Importing, Understanding, and Inspecting Data
+### Week 1 Importing, Understanding, and Inspecting Data
 
 - Perform preliminary data inspection and report structure, missing values, duplicates, and related quality findings.
 - Standardize column names to be Pythonic and consistent for analysis and modeling.
@@ -91,7 +89,7 @@ Notes: Primary accounts are customers own loans; secondary accounts are as co-ap
 - Analyze age distribution with respect to defaulters vs. non‑defaulters.
 - Determine which ID types were most commonly provided for KYC proof.
 
-## Week 2 EDA and modeling
+### Week 2 EDA and modeling
 
 - Study the credit bureau score distribution and compare defaulters vs. non‑defaulters in detail.
 - Explore primary and secondary account summaries to assess relationships with default probability.
