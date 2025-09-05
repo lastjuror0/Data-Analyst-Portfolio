@@ -75,7 +75,7 @@ Notes: Primary accounts are customers own loans; secondary accounts are as co-ap
 
 ---
 
-## Project Tasks
+### Project Tasks
 
 ## Week 1 Importing, Understanding, and Inspecting Data
 
