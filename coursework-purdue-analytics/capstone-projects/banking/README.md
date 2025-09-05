@@ -1,4 +1,4 @@
-# Banking Project – Data and Artificial Intelligence
+# Banking Project
 
 Data Analyst Capstone Project  
 Simplilearn | Indian Institute of Technology, Kanpur
@@ -84,11 +84,6 @@ Notes: Primary accounts are customer’s own loans; secondary accounts are as co
 - Evaluate whether a higher number of inquiries is associated with higher risk.
 - Assess whether credit history signals—new loans in last six months, defaults in last six months, credit history length, etc.—significantly influence default probability.
 - Build a logistic regression model, generate test predictions, and validate with a confusion matrix.
-
-## Dashboarding
-
-- Develop a Tableau dashboard to enable interactive exploration and understanding of data patterns.
-- Demonstrate key variables, their relationships, and the drivers of default risk within the dashboard.
 
 ---
 
