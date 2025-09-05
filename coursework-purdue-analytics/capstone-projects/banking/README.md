@@ -6,8 +6,7 @@ Simplilearn | Indian Institute of Technology, Kanpur
 
 ## Overview
 Banking institutions face numerous challenges related to customer retention, fraud detection, and loan default prediction. This project involves analyzing a banking dataset to identify key factors influencing customer behavior and to develop predictive models for various banking objectives.
-
-The dataset includes multiple attributes related to customer demographics, transaction history, and account information. The goal is to clean and explore the data, uncover actionable insights, and build predictive models.
+the dataset includes multiple attributes related to customer demographics, transaction history, and account information. The goal is to clean and explore the data, uncover actionable insights, and build predictive models.
 ---
 
 ## Problem Statement
