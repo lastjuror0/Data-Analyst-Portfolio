@@ -73,6 +73,10 @@ The study aims to estimate determinants of vehicle loan default and build a mode
 
 Notes: Primary accounts are customers own loans; secondary accounts are as co-applicant or guarantor.
 
+---
+
+## Project Tasks
+
 ## Week 1 tasks
 
 - Perform preliminary data inspection and report structure, missing values, duplicates, and related quality findings.
@@ -101,3 +105,5 @@ Notes: Primary accounts are customers own loans; secondary accounts are as co-ap
 - A cleaned dataset ready for analysis.  
 - EDA report with insights into loan default risk factors.  
 - A trained logistic regression model for predicting defaulters.
+
+---
