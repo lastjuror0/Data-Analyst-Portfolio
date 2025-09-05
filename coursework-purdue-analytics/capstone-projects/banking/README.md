@@ -77,7 +77,7 @@ Notes: Primary accounts are customers own loans; secondary accounts are as co-ap
 
 ## Project Tasks
 
-## Week 1 tasks
+## Week 1 Importing, Understanding, and Inspecting Data
 
 - Perform preliminary data inspection and report structure, missing values, duplicates, and related quality findings.
 - Standardize column names to be Pythonic and consistent for analysis and modeling.
