@@ -1,4 +1,4 @@
-# Healthcare Project – Data and Artificial Intelligence
+# Healthcare Project
 
 Data Analyst Capstone Project  
 Simplilearn | Indian Institute of Technology, Kanpur
@@ -16,8 +16,6 @@ Identify and examine factors that significantly increase the risk of heart disea
 ---
 
 ## Dataset Information
-
-Snapshot (attributes)
 
 - `age` – Age in years  
 - `sex` – Sex (1 = male; 0 = female)  
