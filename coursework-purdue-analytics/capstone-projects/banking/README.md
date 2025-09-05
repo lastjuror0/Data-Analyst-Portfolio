@@ -1,89 +1,107 @@
 
+# Banking Project – Data and Artificial Intelligence
 
-Data Analyst Capstone Project
+Data Analyst Capstone Project  
+Simplilearn | Indian Institute of Technology, Kanpur
 
-Project 2: Banking
+## Overview
+Banking institutions face numerous challenges related to customer retention, fraud detection, and loan default prediction. This project involves analyzing a banking dataset to identify key factors influencing customer behavior and to develop predictive models for various banking objectives.
 
-Problem statement
+The dataset includes multiple attributes related to customer demographics, transaction history, and account information. The goal is to clean and explore the data, uncover actionable insights, build predictive models
+---
 
-There is one dataset data that has 41 attributes.
-
-A statistical model needs to be created to predict the potential demand in dollars amount of loan for each of the region in the USA. Also, there is a need to create a dashboard which would refresh periodically post data retrieval from the agencies.
-
-You are required to determine and examine factors that affect the ratio of vehicle loan defaulters. Also, use the findings to create a model to predict the potential defaulters.
-
-Financial institutions incur significant losses due to the default of vehicle loans. This has led to the tightening up of vehicle loan underwriting and increased the vehicle loan rejection rates. The need for a better credit risk scoring model among these institutions also gets created. This warrants a study to estimate the determinants of vehicle loan default.
-
-Variable Descriptions
-
-UniqueID: Identifier for customers
-loan_default: Payment default in the first EMI on due date
-disbursed_amount: Amount of loan disbursed
-asset_cost: Cost of the asset
-ltv: Expresses the ratio of a loan to the value of the asset
-branch_id: Branch where the loan was disbursed
-supplier_id: Vehicle dealer where the loan was disbursed
-manufacturer_id: Vehicle manufacturer (Hero Honda, TVS, etc.)
-Current_pincode: Current pincode of the customer
-Date.of.Birth: Date of birth of the customer
-Employment.Type: Employment type of the customer (Salaried/Self Employed)
-DisbursalDate: Date of disbursement
-State_ID: State of disbursement
-Employee_code_ID: Employee of the organization who logged the disbursement
-MobileNo_Avl_Flag: If mobile no. was shared by the customer then, flagged as 1
-Aadhar_flag: If Aadhar was shared by the customer then, flagged as 1
-PAN_flag: If PAN was shared by the customer then, flagged as 1
-VoterID_flag: If voter ID was shared by the customer then, flagged as 1
-Driving_flag: If DL was shared by the customer then, flagged as 1
-Passport_flag: If passport was shared by the customer then, flagged as 1
-PERFORM_CNS.SCORE: Bureau score
-PERFORM_CNS.SCORE.DESCRIPTION: Bureau score description
-PRI.NO.OF.ACCTS: Count of total loans taken by the customer at the time of disbursement
-PRI.ACTIVE.ACCTS: Count of active loans taken by the customer at the time of disbursement
-PRI.OVERDUE.ACCTS: No. of accounts the customer has defaulted on at the time of disbursement
-PRI.CURRENT.BALANCE: Total principal outstanding amount of the active loans at the time of disbursement
-PRI.SANCTIONED.AMOUNT: Total amount sanctioned for all the loans at the time of disbursement
-PRI.DISBURSED.AMOUNT: Total amount disbursed for all the loans at the time of disbursement
-SEC.NO.OF.ACCTS: Count of total loans taken by the customer at the time of disbursement
-SEC.ACTIVE.ACCTS: Count of active loans taken by the customer at the time of disbursement
-SEC.OVERDUE.ACCTS: Count of default accounts at the time of disbursement
-SEC.CURRENT.BALANCE: Total principal outstanding amount of the active loans at the time of disbursement
-SEC.SANCTIONED.AMOUNT: Total amount sanctioned for all the loans at the time of disbursement
-SEC.DISBURSED.AMOUNT: Total amount disbursed for all the loans at the time of disbursement
-PRIMARY.INSTAL.AMT: EMI amount of the primary loan
-SEC.INSTAL.AMT: EMI amount of the secondary loan
-NEW.ACCTS.IN.LAST.SIX.MONTHS: New loans taken by the customer in last 6 months before disbursement
-DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS: Loans defaulted in the last 6 months
-AVERAGE.ACCT.AGE: Average loan tenure
-CREDIT.HISTORY.LENGTH: Time since first loan
-NO.OF_INQUIRIES: Enquiries done by the customer for loans
+## Problem Statement
+Identify and examine the factors that significantly influence key banking outcomes (such as customer churn, fraud, or loan default), and build models to predict these outcomes.
 
 ---
 
-Project Task: Week 1
+## Dataset Information
 
-1. Perform preliminary data inspection and report the findings as the structure of the data, missing values, duplicates, etc.
-2. Variable names in the data may not be in accordance with the identifier naming in Python so, change the variable names accordingly.
-3. The presented data might also contain some missing values therefore, exploration will also lead to devising strategies to fill in the missing values while exploring the data.
-4. Provide the statistical description of the quantitative data variables.
-5. Explain how the target variable is distributed overall.
-6. Study the distribution of the target variable across various categories like branch, city, state, supplier, manufacturer, etc.
-7. What are the different employment types given in the data? Can a strategy be developed to fill in the missing values (if any)? Use pie charts to express the different types of employment that define the defaulters and non-defaulters.
-8. Has age got anything to do with defaulting? What is the distribution of age with respect to the defaulters and non-defaulters?
-9. What type of ID was presented by most of the customers for proof?
+Snapshot (attributes)
+
+- `UniqueID` – Unique identifier for customers  
+- `loan_default` – Payment default in the first EMI on due date  
+- `disbursed_amount` – Amount of loan disbursed  
+- `asset_cost` – Cost of the asset  
+- `ltv` – Loan-to-value ratio of the asset  
+- `branch_id` – Branch where the loan was disbursed  
+- `supplier_id` – Vehicle dealer  
+- `manufacturer_id` – Vehicle manufacturer (e.g., Hero Honda, TVS, etc.)  
+- `Current_pincode_ID` – Customer’s current pincode  
+- `Date.of.Birth` – Date of birth of the customer  
+- `Employment.Type` – Employment type (Salaried / Self-Employed)  
+- `DisbursalDate` – Date of loan disbursement  
+- `State_ID` – State of disbursement  
+- `Employee_code_ID` – Employee who logged the disbursement  
+- `MobileNo_Avl_Flag` – Mobile number available (1 = yes)  
+- `Aadhar_flag` – Aadhar available (1 = yes)  
+- `PAN_flag` – PAN available (1 = yes)  
+- `VoterID_flag` – Voter ID available (1 = yes)  
+- `Driving_flag` – Driving license available (1 = yes)  
+- `Passport_flag` – Passport available (1 = yes)  
+- `PERFORM_CNS.SCORE` – Bureau score  
+- `PERFORM_CNS.SCORE.DESCRIPTION` – Bureau score description  
+- `PRI.NO.OF.ACCTS` – Total number of primary loans at the time of disbursement  
+- `PRI.ACTIVE.ACCTS` – Active primary loans at disbursement  
+- `PRI.OVERDUE.ACCTS` – Defaulted primary accounts at disbursement  
+- `PRI.CURRENT.BALANCE` – Principal outstanding amount for primary accounts  
+- `PRI.SANCTIONED.AMOUNT` – Sanctioned loan amount for primary accounts  
+- `PRI.DISBURSED.AMOUNT` – Disbursed loan amount for primary accounts  
+- `SEC.NO.OF.ACCTS` – Total number of secondary loans at the time of disbursement  
+- `SEC.ACTIVE.ACCTS` – Active secondary loans  
+- `SEC.OVERDUE.ACCTS` – Defaulted secondary loans  
+- `SEC.CURRENT.BALANCE` – Outstanding balance of secondary loans  
+- `SEC.SANCTIONED.AMOUNT` – Sanctioned secondary loan amount  
+- `SEC.DISBURSED.AMOUNT` – Disbursed secondary loan amount  
+- `PRIMARY.INSTAL.AMT` – EMI amount of the primary loan  
+- `SEC.INSTAL.AMT` – EMI amount of the secondary loan  
+- `NEW.ACCTS.IN.LAST.SIX.MONTHS` – New loans in the last 6 months  
+- `DELINQUENT.ACCTS.IN.LAST.SIX.MONTHS` – Defaults in the last 6 months  
+- `AVERAGE.ACCT.AGE` – Average loan tenure  
+- `CREDIT.HISTORY.LENGTH` – Time since first loan  
+- `NO.OF_INQUIRIES` – Number of loan queries made by the customer  
+- `customer_id` – Unique identifier for each customer  
+- `age` – Age of the customer  
+- `gender` – Gender of the customer  
+- `account_balance` – Current balance in customer’s account  
+- `num_of_products` – Number of banking products held  
+- `credit_score` – Customer’s credit score  
+- `is_active_member` – Whether the customer is an active member (1 = yes; 0 = no)  
+- `estimated_salary` – Estimated annual salary  
+- `tenure` – Number of years with the bank  
+- `has_cr_card` – Whether the customer has a credit card (1 = yes; 0 = no)  
+- `geography` – Customer’s location/region  
+- `churn` – Whether the customer left the bank (1 = yes; 0 = no)  
+- `fraud_reported` – Whether the account was flagged for fraud (1 = yes; 0 = no)  
 
 ---
 
-Project Task: Week 2
+## Project Tasks
 
-1. Study the credit bureau score distribution. Compare the distribution for defaulters vs. non-defaulters.
-2. Explore the primary and secondary account details. Is the information in some way related to the loan default probability?
-3. Is there a difference between the sanctioned and disbursed amount of primary and secondary loans? Study the difference by providing appropriate statistics and graphs.
-4. Do customers who make higher number of enquiries end up being higher risk candidates?
-5. Is credit history (new loans in last six months, loans defaulted in last six months, time since first loan, etc.) a significant factor in estimating probability of loan defaulters?
-6. Perform logistic regression modeling, predict the outcome for the test data, and validate the results using the confusion matrix.
+### Week 1 — Data Understanding & Exploratory Data Analysis (EDA)
+1. Import and inspect the data:
+   - Check data structure, types, and initial samples.
+   - Identify missing values and duplicates.
+2. Data cleaning:
+   - Remove duplicates (if any).
+   - Treat missing values using an appropriate strategy (imputation, removal, or domain-specific decisions).
+3. Preliminary statistics:
+   - Generate summary statistics (mean, median, std, quartiles).
+   - Explore measures of central tendency and spread.
+4. EDA (visual and statistical):
+   - Identify categorical variables and visualize them (count plots, bar charts).
+   - Study the distribution of churn, loan default, and fraud across different ages and geographies.
+   - Analyze account balance and credit score distributions and their relationship with churn/default.
+   - Study gender and tenure distributions and their relationship with key outcomes.
 
+### Week 2 — Advanced EDA & Modeling
+1. Analyze relationships:
+   - Describe the relationship between credit score and churn/loan default.
+   - Examine how the number of products held influences customer churn.
+   - Investigate the impact of account activity and credit card ownership on key outcomes.
+   - Use pair plots (or equivalent) to visualize relationships among variables.
+2. Modeling:
+   - Train logistic regression (and/or other relevant models) to predict churn, loan default, or fraud.
+   - Evaluate model performance on a test set; present a confusion matrix and relevant metrics (accuracy, precision, recall, F1-score).
 
 ---
-
-Thank You
