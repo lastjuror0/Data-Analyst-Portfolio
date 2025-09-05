@@ -36,34 +36,25 @@ Identify and examine factors that significantly increase the risk of heart disea
 
 ## Project Tasks
 
-### Week 1 — Data Understanding & Exploratory Data Analysis (EDA)
-1. Import and inspect the data:
-   - Check data structure, types, and initial samples.
-   - Identify missing values and duplicates.
-2. Data cleaning:
-   - Remove duplicates (if any).
-   - Treat missing values using an appropriate strategy (imputation, removal, or domain-specific decisions).
-3. Preliminary statistics:
-   - Generate summary statistics (mean, median, std, quartiles).
-   - Explore measures of central tendency and spread.
-4. EDA (visual and statistical):
-   - Identify categorical variables and visualize them (count plots, bar charts).
-   - Study the occurrence of CVD across different ages.
-   - Analyze resting blood pressure (`trestbps`) for anomalies and relation to heart attack risk.
-   - Study gender distribution and its relationship with `target`.
+### Week 1 — Importing, Understanding, and Inspecting Data
 
-### Week 2 — Advanced EDA & Modeling
-1. Analyze relationships:
-   - Describe the relationship between cholesterol (`chol`) and `target`.
-   - Examine how maximum heart rate achieved (`thalach`) relates to heart disease occurrence.
-   - Investigate whether thalassemia (`thal`) is a major contributor and assess impacts of other factors.
-   - Use pair plots (or equivalent) to visualize relationships among variables.
-2. Modeling:
-   - Train a logistic regression model to predict `target`.
-   - Evaluate model performance on a test set; present a confusion matrix and relevant metrics (accuracy, precision, recall, F1-score).
-3. Dashboarding (Tableau):
-   - Create visualizations to compare attributes of diseased vs. healthy individuals.
-   - Build a dashboard demonstrating variable associations and key contributing factors.
+- Perform preliminary data inspection and report data structure, missing values, duplicates, and data quality findings.
+- Remove duplicates (if any) and treat missing values using appropriate strategies informed by inspection results.
+- Produce a preliminary statistical summary, exploring central tendency and spread across variables.
+- Identify categorical variables and explore them using tools such as count plots.
+- Study the occurrence of CVD across different age groups.
+- Investigate whether anomalies in resting blood pressure can indicate heart attack risk.
+- Analyze overall patient composition by gender.
+
+### Week 2 — EDA, Modeling, and Dashboarding
+
+- Describe the relationship between cholesterol levels and the target variable.
+- Evaluate how peak exercise metrics relate to heart attack occurrence.
+- Assess whether thalassemia is a major factor in CVD and compare it with other determinants.
+- Use a pair plot to understand relationships across all variables.
+- Perform logistic regression, generate predictions for test data, and validate using a confusion matrix.
+- Visualize variables in Tableau to distinguish attributes of Diseased vs. Healthy cohorts
+- Demonstrate inter-variable associations and key drivers to construct an informative dashboard
 
 ---
 
