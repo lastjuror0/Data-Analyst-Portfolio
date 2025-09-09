@@ -68,3 +68,11 @@ To make sure an effective model can be achieved, it is important to understand t
 - Explain which factors—number of cuisines, cost, delivery option, table booking, etc.—affect ratings.
 
 ---
+
+## Deliverables
+
+- A cleaned dataset ready for analysis.
+- EDA report with insights into restaurant ratings and trends.
+- A data-driven matrix for identifying and recommending "star" restaurants.
+
+---
