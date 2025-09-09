@@ -8,7 +8,7 @@ Simplilearn | Indian Institute of Technology, Kanpur
 ## Overview
 
 Banking focuses on estimating determinants of vehicle loan default and building a predictive model to identify potential defaulters.  
-The project uses a single dataset with 41 attributes and requires exploratory data analysis, modeling, and dashboarding to understand and communicate risk drivers.
+The project uses a single dataset with 41 attributes and requires exploratory data analysis and modeling to understand and communicate risk drivers.
 
 ---
 
