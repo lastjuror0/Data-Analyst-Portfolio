@@ -22,25 +22,25 @@ To make sure an effective model can be achieved, it is important to understand t
 
 ## Dataset Information
 
-- **Restaurant ID:** Identification number for each restaurant.
-- **Restaurant Name:** Official name of the restaurant.
-- **Country Code:** Numeric country code referencing the Country‑Code table.
-- **City:** City where the restaurant operates.
-- **Address:** Full address string of the restaurant.
-- **Locality:** Short form of the address or neighborhood label.
-- **Locality Verbose:** Detailed neighborhood or extended locality text.
-- **Longitude:** Geographic longitude coordinate.
-- **Latitude:** Geographic latitude coordinate.
-- **Cuisines:** Comma‑separated list of cuisines served.
-- **Average Cost for two:** Typical spend for two diners.
-- **Currency:** Local currency used for pricing.
-- **Has Table booking:** Whether table booking is available (Yes/No).
-- **Has Online delivery:** Whether online delivery is available (Yes/No).
-- **Price range:** Price category from 1 to 4.
-- **Aggregate rating:** Numeric rating on a 1–5 scale.
-- **Rating color:** Color code representing rating level.
-- **Rating text:** Text label such as Excellent, Very Good, Good, Average, Poor, or Not Rated.
-- **Votes:** Count of customer votes for the restaurant.
+- `Restaurant ID` – Identification number for each restaurant  
+- `Restaurant Name` – Official name of the restaurant  
+- `Country Code` – Numeric country code referencing the Country‑Code table  
+- `City` – City where the restaurant operates  
+- `Address` – Full address string of the restaurant  
+- `Locality` – Short form of the address or neighborhood label  
+- `Locality Verbose` – Detailed neighborhood or extended locality text  
+- `Longitude` – Geographic longitude coordinate  
+- `Latitude` – Geographic latitude coordinate  
+- `Cuisines` – Comma‑separated list of cuisines served  
+- `Average Cost for two` – Typical spend for two diners  
+- `Currency` – Local currency used for pricing  
+- `Has Table booking` – Whether table booking is available (Yes/No)  
+- `Has Online delivery` – Whether online delivery is available (Yes/No)  
+- `Price range` – Price category from 1 to 4  
+- `Aggregate rating` – Numeric rating on a 1–5 scale  
+- `Rating color` – Color code representing rating level  
+- `Rating text` – Text label such as Excellent, Very Good, Good, Average, Poor, or Not Rated  
+- `Votes` – Count of customer votes for the restaurant  
 
 ---
 
