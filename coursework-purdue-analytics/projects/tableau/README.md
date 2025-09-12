@@ -1,6 +1,6 @@
 # Comparative Study of Countries
 
-## Course-end Project 1
+## Course-end Project 
 
 ---
 
