@@ -54,5 +54,3 @@ Create a dashboard to compare all the parameters mentioned above for different c
 
 7. **Formatting should be done appropriately**
 
----
-
