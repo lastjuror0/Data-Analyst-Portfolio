@@ -1,0 +1,61 @@
+# Exploratory data analysis:
+
+# Load the dataset and the relevant libraries
+install.packages("readxl")
+library(readxl)
+bike_data <- read_excel("day.xlsx")
+head(bike_data)
+
+# Perform data type conversion of the attributes
+str(bike_data)
+bike_data$season <- as.factor(bike_data$season)
+bike_data$yr <- as.factor(bike_data$yr)
+bike_data$mnth <- as.factor(bike_data$mnth)
+bike_data$holiday <- as.factor(bike_data$holiday)
+bike_data$weekday <- as.factor(bike_data$weekday)
+bike_data$workingday <- as.factor(bike_data$workingday)
+bike_data$weathersit <- as.factor(bike_data$weathersit)
+str(bike_data)
+
+# Carry out the missing value analysis
+sum(is.na(bike_data))
+colSums(is.na(bike_data))
+bike_data <- na.omit(bike_data)
+
+# Attributes distribution and trends:
+
+# Plot monthly distribution of the total number of bikes rented
+m_cnt <- aggregate(cnt ~ mnth, bike_data, sum)
+plot(m_cnt$mnth, m_cnt$cnt, type="l")
+
+# Plot yearly distribution of the total number of bikes rented
+y_cnt <- aggregate(cnt ~ yr, bike_data, sum)
+plot(y_cnt$yr, y_cnt$cnt, type="l")
+
+
+# Plot boxplot for outliers' analysis
+boxplot(bike_data$casual, bike_data$registered, bike_data$cnt,
+        names=c("casual","registered","cnt"))
+        
+
+# Perform the following tasks on the dataset provided using R:
+
+# Split the dataset into train and test dataset
+# Create a model using the random forest algorithm
+# Predict the performance of the model on the test dataset
+
+install.packages("caTools")
+library(caTools)
+set.seed(123)
+splt <- sample.split(bike_data$cnt, SplitRatio = 0.7)
+train <- subset(bike_data, splt == TRUE)
+test <- subset(bike_data, splt == FALSE)
+
+install.packages("randomForest")
+library(randomForest)
+rf_mod <- randomForest(cnt ~ . -instant -dteday, data = train, method="anova")
+
+pred <- predict(rf_mod, newdata=test)
+mape <- mean(abs(test$cnt - pred)/test$cnt)
+mape
+
