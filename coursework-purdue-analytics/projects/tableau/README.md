@@ -1,8 +1,7 @@
 # Comparative Study of Countries
 
-Data Analyst Capstone Project
+course-end project
 Simplilearn | Indian Institute of Technology, Kanpur
-
 
 ---
 
