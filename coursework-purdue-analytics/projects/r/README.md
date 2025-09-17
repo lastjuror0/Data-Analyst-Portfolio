@@ -42,8 +42,6 @@ In bike-sharing systems, the entire process from membership to rental and return
 
 Perform the following tasks on the dataset provided using R:
 
-### Exploratory data analysis:
-
 - Load the dataset and the relevant libraries
 - Perform data type conversion of the attributes
 - Carry out the missing value analysis
