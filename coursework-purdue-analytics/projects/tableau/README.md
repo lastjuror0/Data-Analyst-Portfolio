@@ -1,7 +1,7 @@
 # Comparative Study of Countries
 
 course-end project  
-Simplilearn | Indian Institute of Technology, Kanpur
+Simplilearn | Purdue University
 
 ---
 
