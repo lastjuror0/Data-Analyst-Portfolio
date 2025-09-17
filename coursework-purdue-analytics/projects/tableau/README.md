@@ -1,7 +1,6 @@
 # Comparative Study of Countries
 
-Course-end Project
-
+Course-end Project 
 Simplilearn | Indian Institute of Technology, Kanpur
 
 
