@@ -1,7 +1,7 @@
 # Bike Rental Prediction
 
 course-end project  
-Simplilearn | Indian Institute of Technology, Kanpur
+Simplilearn | Purdue University
 
 ---
 
