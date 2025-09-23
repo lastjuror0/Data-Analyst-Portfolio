@@ -1,7 +1,7 @@
 # Data Manipulation and Reporting with Power BI
 
-course-end project  
-Simplilearn | Purdue University
+Course-end project (PL-300 Power BI Training)  
+Simplilearn | Purdue University (Elective)
 
 ---
 
