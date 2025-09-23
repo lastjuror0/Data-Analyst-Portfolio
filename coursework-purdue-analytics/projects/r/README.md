@@ -40,37 +40,37 @@ In bike-sharing systems, the entire process from membership to rental and return
 
 ## Dataset Information
 
-- 'instant' – Record index
+- `instant` – Record index
 
-- 'dteday' – Date
+- `dteday` – Date
 
-- 'season' – Season (1: springer, 2: summer, 3: fall, 4: winter)
+- `season`– Season (1: springer, 2: summer, 3: fall, 4: winter)
 
-- 'yr' – Year (0: 2011, 1: 2012)
+- `yr` – Year (0: 2011, 1: 2012)
 
-- 'mnth' – Month (1 to 12)
+- `mnth` – Month (1 to 12)
 
-- 'holiday' – Weather day is a holiday or not
+- `holiday` – Weather day is a holiday or not
 
-- 'weekday' – Day of the week
+- `weekday` – Day of the week
 
-- 'workingday' – Working day (1: neither weekend nor holiday, 0: other days)
+- `workingday` – Working day (1: neither weekend nor holiday, 0: other days)
 
-- 'weathersit' – Weather situation (1: Clear, few clouds, partly cloudy, 2: Mist + cloudy, mist + broken clouds, mist + few clouds, mist, 3: Light snow, light rain + thunderstorm + scattered clouds, light rain + scattered clouds, 4: Heavy rain + ice pallets)
+- `weathersit` – Weather situation (1: Clear, few clouds, partly cloudy, 2: Mist + cloudy, mist + broken clouds, mist + few clouds, mist, 3: Light snow, light rain + thunderstorm + scattered clouds, light rain + scattered clouds, 4: Heavy rain + ice pallets)
 
-- 'temp' – Normalized temperature in Celsius; values divided into 41 (max)
+- `temp` – Normalized temperature in Celsius; values divided into 41 (max)
 
-- 'atemp' – Normalized feeling temperature in Celsius; values divided into 50 (max)
+- `atemp` – Normalized feeling temperature in Celsius; values divided into 50 (max)
 
-- 'hum' – Normalized humidity; values divided into 100 (max)
+- `hum` – Normalized humidity; values divided into 100 (max)
 
-- 'windspeed' – Normalized wind speed; values divided into 67 (max)
+- `windspeed` – Normalized wind speed; values divided into 67 (max)
 
-- 'casual' – Count of casual users
+- `casual` – Count of casual users
 
-- 'registered' – Count of registered users
+- `registered` – Count of registered users
 
-- 'cnt' – Count of total rental bikes including both casual and registered
+- `cnt` – Count of total rental bikes including both casual and registered
 
 ---
 
