@@ -1,5 +1,8 @@
 # Data Manipulation and Reporting with Power BI
 
+course-end project
+Simplilearn | Purdue University
+
 ---
 
 ## Objectives
