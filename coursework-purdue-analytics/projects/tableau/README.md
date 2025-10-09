@@ -21,8 +21,8 @@ Create a dashboard to compare all the parameters mentioned above for different c
 
 ### Datasets
 
-- Primary Dataset - Insurance Sample Dataset
-- Secondary Dataset - Global Financial Development Database
+- `Primary Dataset` - Insurance Sample Dataset
+- `Secondary Dataset` - Global Financial Development Database
 
 **Note:** Use Data Blending with Relationships between Country Code, Country, and Year
 
