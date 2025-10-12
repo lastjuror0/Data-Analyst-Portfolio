@@ -1,5 +1,7 @@
-App Rating Prediction..
-Course-end Project 1
+App Rating Prediction
+
+Course-end Project  
+Simplilearn | Purdue University
 
 Description
 
@@ -158,5 +160,3 @@ Use linear regression as the technique
 Report the R2 on the train set
 
 12. Make predictions on test set and report R2.
-
-You can download the datasets from here - 
