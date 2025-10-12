@@ -138,7 +138,7 @@ df = pd.read_csv('Scraper/goodreads_scraped_data.csv')
 ## Repository structure
 
 ```
-Personal-End-to-End-Project
+end-to-end-goodreads-clustering
 ├── Data-Analysis
 │   ├── Goodreads-Book-Clustering-Project-Documentation.pdf
 │   └── goodreads_python.ipynb
