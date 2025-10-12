@@ -17,12 +17,6 @@ Google Play Store team is about to launch a new feature wherein, certain apps th
 
 ---
 
-## Domain
-
-General
-
----
-
 ## Dataset
 
 Dataset: Google Play Store data (`googleplaystore.csv`)
