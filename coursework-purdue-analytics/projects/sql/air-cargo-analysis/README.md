@@ -15,10 +15,13 @@ Air Cargo is an aviation company that provides air transportation services for p
 
 You, as a DBA expert, need to focus on identifying the regular customers to provide offers, analyze the busiest route which helps to increase the number of aircraft required and prepare an analysis to determine the ticket sales details. This will ensure that the company improves its operability and becomes more customer-centric and a favorable choice for air travel.
 
+---
 
 ## Dataset description:
 
-Customer: Contains the information of customers
+### Customer
+
+Contains the information of customers
 
 - `customer_id` – ID of the customer
 - `first_name` – First name of the customer
@@ -26,7 +29,9 @@ Customer: Contains the information of customers
 - `date_of_birth` – Date of birth of the customer
 - `gender` – Gender of the customer
 
-passengers_on_flights: Contains information about the travel details
+### passengers_on_flights
+
+Contains information about the travel details
 
 - `aircraft_id` – ID of each aircraft in a brand
 - `route_id` – Route ID of from and to location
@@ -38,7 +43,9 @@ passengers_on_flights: Contains information about the travel details
 - `travel_date` – Travel date of each passenger
 - `flight_num` – Specific flight number for each route
 
-ticket_details: Contains information about the ticket details
+### ticket_details
+
+Contains information about the ticket details
 
 - `p_date` – Ticket purchase date
 - `customer_id` – ID of the customer
@@ -49,7 +56,9 @@ ticket_details: Contains information about the ticket details
 - `price_per_ticket` – Price of a ticket
 - `brand` – Aviation service provider for each aircraft
 
-routes: Contains information about the route details
+### routes
+
+Contains information about the route details
 
 - `route_id` – Route ID of from and to location
 - `flight_num` – Specific flight number for each route
@@ -58,7 +67,11 @@ routes: Contains information about the route details
 - `aircraft_id` – ID of each aircraft in a brand
 - `distance_miles` – Distance between departure and arrival location
 
-## Operations to perform
+---
+
+## Tasks to Perform
+
+Perform the following tasks using SQL:
 
 1. Write a query to display all the passengers (customers) who have travelled in routes 01 to 25. Take data from the passengers_on_flights table.
 2. Write a query to identify the number of passengers and total revenue in business class from the ticket_details table.
