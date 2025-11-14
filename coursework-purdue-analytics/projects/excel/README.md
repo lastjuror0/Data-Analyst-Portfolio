@@ -3,6 +3,8 @@
 Course-end Project  
 Simplilearn | Purdue University
 
+**Note:** Original course materials and datasets are not included to respect Simplilearn’s content policy.
+
 ---
 
 ## Description
