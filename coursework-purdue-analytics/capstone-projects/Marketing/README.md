@@ -3,7 +3,8 @@
 Data Analyst Capstone Project  
 Simplilearn | Indian Institute of Technology, Kanpur
 
-Note: Original course materials and datasets are not included to respect Simplilearn’s content policy.
+**Note:** Original course materials and datasets are not included to respect Simplilearn’s content policy.
+
 ---
 
 ## Overview
