@@ -79,6 +79,8 @@ These capstones combine concepts from multiple subjects to solve guided business
 Each folder contains the corresponding coursework files, notebooks, and assessments.  
 Open any subject or capstone folder to explore specific project submissions.
 
+**Note:** Original course materials and datasets are not included to respect Simplilearn’s content policy.
+
 ---
 
 ## 🏅 Certification
