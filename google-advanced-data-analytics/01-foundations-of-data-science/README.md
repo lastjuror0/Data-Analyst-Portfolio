@@ -1,4 +1,4 @@
-# Automatidata – PACE Project Planning (Course 1)
+# Automatidata – Project Planning & Data Understanding (Course 1)
 
 ## Context
 This folder contains an end-of-course project for **Course 1: Foundations of Data Science** in the **Google Advanced Data Analytics Certificate**.
