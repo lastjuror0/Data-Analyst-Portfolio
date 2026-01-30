@@ -47,20 +47,23 @@ Each course builds on the previous one, reflecting a structured progression from
 
 ## 🏁 Capstone Project
 
-### **Providing Data-Driven Suggestions for HR**
+### **Employee Retention Analysis**
 
-The capstone project focuses on analyzing employee data for a large consulting firm to support Human Resources decision-making.
+The capstone project is the culminating assessment of the **Google Advanced Data Analytics Professional Certificate** and integrates skills developed across all prior courses into a single, end-to-end analytics project.
 
-The project involves:
-- Exploring and preparing the dataset
-- Building and evaluating a predictive model (regression or machine learning) to estimate employee attrition
+The project is based on a fictional workplace scenario and focuses on analyzing employee survey data to support Human Resources decision-making.
+
+The work includes:
+- Preparing and exploring the dataset
+- Building and evaluating a predictive model  
+  (regression or tree-based machine learning) to estimate employee attrition
 - Creating data visualizations relevant to the analytical question
-- Interpreting model results and discussing ethical considerations
+- Interpreting model results and considering ethical implications
 - Communicating findings through a concise executive summary
 
 The capstone produces two primary artifacts:
 - A complete analysis notebook
-- A one-page summary suitable for presentation to non-technical stakeholders
+- A one-page summary intended for non-technical stakeholders
 
 ---
 
