@@ -13,5 +13,5 @@ This repository contains multiple data analytics projects.
 - Clear documentation and analytical reporting
 - Interactive Tableau dashboard
 
-👉 [Go to project files](./Goodreads_Project_Folder)
-👉 [View documentation](./Goodreads_Documentation.md)
+👉 [Go to project files](./end-to-end-goodreads-clustering)
+👉 [View documentation](./Goodreads-Book-Clustering-Project-Documentation.pdf)
