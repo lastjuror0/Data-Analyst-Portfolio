@@ -56,7 +56,7 @@ The project is based on a fictional workplace scenario and focuses on analyzing 
 The work includes:
 - Preparing and exploring the dataset
 - Building and evaluating a predictive model  
-  (regression or tree-based machine learning) to estimate employee attrition
+  (regression) to estimate employee attrition
 - Creating data visualizations relevant to the analytical question
 - Interpreting model results and considering ethical implications
 - Communicating findings through a concise executive summary
