@@ -27,3 +27,9 @@ This repository contains multiple data analytics projects.
 - Clear documentation translating model results into retention insights
 
 👉 [View project files](./google-advanced-data-analytics/07-capstone-project)
+
+### Purdue Capstone Projects
+
+Additional capstone projects completed during formal data analytics training, covering marketing, healthcare, and financial analysis.
+
+👉 [View Purdue capstone projects](./coursework-purdue-analytics/capstone-projects)
