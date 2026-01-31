@@ -15,3 +15,15 @@ This repository contains multiple data analytics projects.
 
 👉 [Go to project files](./end-to-end-goodreads-clustering)
 👉 [View documentation](./end-to-end-goodreads-clustering/Data-Analysis/Goodreads-Book-Clustering-Project-Documentation.pdf)
+
+
+## Other Selected Projects
+
+### Salifort Motors – Employee Attrition Analysis
+**Tools:** Python, Scikit-learn, XGBoost
+
+- Supervised machine learning project focused on predicting employee attrition
+- Feature importance analysis to identify key drivers of turnover
+- Clear documentation translating model results into retention insights
+
+👉 [View project files](./google-advanced-data-analytics/07-capstone-project)
