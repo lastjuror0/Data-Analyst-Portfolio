@@ -20,7 +20,7 @@ This repository contains multiple data analytics projects.
 ## Other Selected Projects
 
 ### Salifort Motors – Employee Attrition Analysis
-**Tools:** Python, Scikit-learn, XGBoost
+**Tools:** Python, Scikit-learn
 
 - Supervised machine learning project focused on predicting employee attrition
 - Feature importance analysis to identify key drivers of turnover
