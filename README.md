@@ -4,7 +4,7 @@ This repository contains multiple data analytics projects.
 
 ## ⭐ Featured Project: Goodreads Book Clustering & Recommendation Analysis
 
-**Tools:** Python, SQL (DuckDB), Selenium, Scikit-learn, Tableau
+**Tools:** Python, SQL (DuckDB), Selenium, Scikit-learn, Machine learning, Tableau
 
 **What this project demonstrates:**
 - End-to-end data collection via web scraping
@@ -20,7 +20,7 @@ This repository contains multiple data analytics projects.
 ## Other Selected Projects
 
 ### Salifort Motors – Employee Attrition Analysis
-**Tools:** Python, Scikit-learn
+**Tools:** Python, Scikit-learn, Machine learning
 
 - Supervised machine learning project focused on predicting employee attrition
 - Feature importance analysis to identify key drivers of turnover
