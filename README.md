@@ -33,10 +33,3 @@ This repository contains multiple data analytics projects.
 Additional capstone projects completed during formal data analytics training, covering marketing, healthcare, and financial analysis.
 
 👉 [View Purdue capstone projects](./coursework-purdue-analytics/capstone-projects)
-
-## Certifications
-
-- Post Graduate Certificate in Data Analytics — Purdue University (Professional Program)
-- Google Advanced Data Analytics Certificate — Google
-
-📄 Certificate files are available in the `/certifications` folder.
